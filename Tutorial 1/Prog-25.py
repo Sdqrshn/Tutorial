@@ -1,5 +1,5 @@
-x = int(input("Enter base: "))
-y = int(input("Enter exponent: "))
+x = int(input("Enter x: "))
+y = int(input("Enter y: "))
 result = 1
 for _ in range(y):
     result *= x
