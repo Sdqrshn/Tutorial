@@ -1,2 +1,5 @@
-string = input("Enter a string: ")
-print("Palindrome" if string == string[::-1] else "Not a palindrome")
+string = input()
+if string == string[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
