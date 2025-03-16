@@ -1,5 +1,5 @@
 n = int(input("Enter number of elements: "))
-nums = list(map(int, input("Enter the numbers: ").split()))
-even_count = sum(1 for num in nums if num % 2 == 0)
-odd_count = n - even_count
-print(f"Even numbers: {even_count}, Odd numbers: {odd_count}")
+nums = [int(x) for x in input("Enter the numbers: ").split()]
+even = sum(1 for num in nums if num % 2 == 0)
+odd = n - even
+print(f"Even numbers: {even}, Odd numbers: {odd}")
