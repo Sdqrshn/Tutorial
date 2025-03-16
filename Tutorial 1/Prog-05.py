@@ -1,18 +1,18 @@
 import math
-a = float(input("Enter coefficient a: "))
-b = float(input("Enter coefficient b: "))
-c = float(input("Enter coefficient c: "))
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
 
-discriminant = b**2 - 4*a*c
+d = b**2 - 4*a*c
 
-if discriminant > 0:
-    root1 = (-b + math.sqrt(discriminant)) / (2*a)
-    root2 = (-b - math.sqrt(discriminant)) / (2*a)
+if d > 0:
+    root1 = (-b + math.sqrt(d)) / (2*a)
+    root2 = (-b - math.sqrt(d)) / (2*a)
     print(f"Roots are real and different: {root1}, {root2}")
-elif discriminant == 0:
+elif d == 0:
     root = -b / (2*a)
     print(f"Roots are real and the same: {root}")
 else:
-    real_part = -b / (2*a)
-    imaginary_part = math.sqrt(-discriminant) / (2*a)
-    print(f"Roots are complex: {real_part} ± {imaginary_part}i")
+    real = -b / (2*a)
+    imag = math.sqrt(-d) / (2*a)
+    print(f"Roots are complex: {real} ± {imag}i")
