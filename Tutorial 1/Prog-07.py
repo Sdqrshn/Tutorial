@@ -10,4 +10,4 @@ elif x < 0 and y < 0:
 elif x > 0 and y < 0:
     print("Fourth Quadrant")
 else:
-    print("The point lies on the axis")
+    print("The point is on the axis")
