@@ -1,4 +1,5 @@
 for num in range(100, 1001):
-    if sum(map(int, str(num))) % 9 == 0:
+    sumofdigits = sum(int(digit) for digit in str(num)) 
+    if sumofdigits % 9 == 0:
         print(num, end=" ")
 print()
