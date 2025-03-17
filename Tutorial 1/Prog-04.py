@@ -5,4 +5,4 @@ if a > b:
 elif a < b:
     print(f"{b} is greater than {a}")
 else:
-    print("Both numbers are equal")
+    print("Both numbers are equal.")
