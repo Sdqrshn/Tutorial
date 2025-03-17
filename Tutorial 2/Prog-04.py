@@ -1,4 +1,4 @@
-string = input("Enter a string: ")
+string = input("Enter string: ")
 if " " in string:
     result = string.replace(" ", "*")
 else:
