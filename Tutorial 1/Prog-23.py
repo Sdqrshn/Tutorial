@@ -6,4 +6,3 @@ while num > 1:
         num //= i
     else:
         i += 1
-print()
