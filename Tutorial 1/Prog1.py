@@ -1,5 +1,5 @@
-seconds = int(input("Enter time in seconds: "))
-hours = seconds // 3600
-minutes = (seconds % 3600) // 60
-seconds = seconds % 60
-print(f"{hours:02}:{minutes:02}:{seconds:02}")
+s = int(input("Enter time in seconds: "))
+h = s // 3600
+m = (s % 3600) // 60
+s = s % 60
+print(f"{h:02}:{m:02}:{s:02}")
